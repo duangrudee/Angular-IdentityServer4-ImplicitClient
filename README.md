@@ -1,4 +1,6 @@
-# AngularIdentityServer4ImplicitClient
+# Angular4 IdentityServer4 Implicit OIDC Client
+
+The sample use oidc-client client manager library and [Identity Server 4 demo](https://demo.identityserver.io/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.3.
 
