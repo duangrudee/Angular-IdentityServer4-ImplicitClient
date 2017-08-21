@@ -1,16 +1,16 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!
-  </h1>  
-</div>
-<h2>Here are some Action You can do: </h2>
+
+<h1>{{title}}</h1>
+<!-- <nav>
+  <a routerLink="/callback" routerLinkActive="active">callback</a>
+  <a routerLink="/logout" routerLinkActive="active">Logout</a>
+</nav> -->
+
 
 <div>
-    <button onclick="onLoginClicked()">Log in</button>
+    <button (click)="onLoginClicked()">Log in</button>
+    <button (click)="onLogoutClicked()">Log out</button>
 </div>
 
-<div>
-    <button onclick="onLogoutClicked()">Log out</button>
-</div>
 
+<router-outlet></router-outlet>
