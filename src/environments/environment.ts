@@ -5,6 +5,10 @@
 
 export const environment = {
   production: false,
-  identityServerEndpoint : 'https://demo.identityserver.io/',
+  //identityServerEndpoint : 'https://demo.identityserver.io/',
+  //client_id : 'implicit',
+  identityServerEndpoint : 'http://localhost:5000',
+  client_id : 'js',
+  scope :  'openid profile email api1',
   myHostname : 'http://localhost:4200'
 };

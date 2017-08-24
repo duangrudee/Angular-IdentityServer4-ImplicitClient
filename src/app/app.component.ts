@@ -19,6 +19,8 @@ export class AppComponent {
   }
 
   onLogoutClicked() {
-    this.authService.signout();
+    const user = JSON.parse(localStorage.getItem('User'));
+
+    this.authService.signout(user);
   }
 }
