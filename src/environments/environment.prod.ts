@@ -3,5 +3,5 @@ export const environment = {
   identityServerEndpoint : 'https://demo.identityserver.io/',
   client_id : 'implicit',
   scope :  'openid profile api',
-  myHostname : 'http://demo.identityserrver.azurewebsites.net'
+  myHostname : '<put your website host name>'
 };
